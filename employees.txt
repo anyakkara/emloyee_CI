@@ -1,0 +1,44 @@
+FullName: Ivan Ivanov Ivanovich
+Age: 45
+Birth Date: 10.03.1980
+Home Address: Ivanovskya street 123
+Position: Analyst
+Address Work: Build 2
+Department: Department IT
+Employment Date: 01.03.2020
+Online Work: No
+Salary: 300000
+
+FullName: Elena Smirnova Petrovna
+Age: 38
+Birth Date: 22.06.1986
+Home Address: Pushkina street 45
+Position: System Administrator
+Address Work: Build 1
+Department: Department IT
+Employment Date: 15.04.2018
+Online Work: Yes
+Salary: 250000
+
+FullName: Dmitry Kuznetsov Sergeevich
+Age: 29
+Birth Date: 11.12.1995
+Home Address: Lenina street 10
+Position: Backend Developer
+Address Work: Build 3
+Department: Department Development
+Employment Date: 10.02.2022
+Online Work: No
+Salary: 280000
+
+FullName: Olga Morozova Nikolaevna
+Age: 33
+Birth Date: 30.09.1991
+Home Address: Sovetskaya street 78
+Position: HR Specialist
+Address Work: Build 5
+Department: Human Resources
+Employment Date: 20.06.2019
+Online Work: Yes
+Salary: 220000
+

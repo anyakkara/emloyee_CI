@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xmlList>
+    <Boss>
+        <FirstName>Sergey</FirstName>
+        <MiddleName>Volkov</MiddleName>
+        <LastName>Ivanovich</LastName>
+        <Age>41</Age>
+        <BirthDate>17.05.1983</BirthDate>
+        <HomeAddress>Zelenaya street 12</HomeAddress>
+        <Position>Project Manager</Position>
+        <AddressWork>Build 4</AddressWork>
+        <Department>Project Office</Department>
+        <EmploymentDate>01.11.2015</EmploymentDate>
+        <OnlineWork>false</OnlineWork>
+        <Salary>350000</Salary>
+        <EmployeeWork>
+            <Subordinate>
+                <FirstName>Ivan</FirstName>
+                <MiddleName>Ivanov</MiddleName>
+                <LastName>Ivanovich</LastName>
+                <Age>45</Age>
+                <BirthDate>10.03.1980</BirthDate>
+                <HomeAddress>Ivanovskya street 123</HomeAddress>
+                <Position>Analyst</Position>
+                <AddressWork>Build 2</AddressWork>
+                <Department>Department IT</Department>
+                <EmploymentDate>01.03.2020</EmploymentDate>
+                <OnlineWork>false</OnlineWork>
+                <Salary>300000</Salary>
+            </Subordinate>
+            <Subordinate>
+                <FirstName>Elena</FirstName>
+                <MiddleName>Smirnova</MiddleName>
+                <LastName>Petrovna</LastName>
+                <Age>38</Age>
+                <BirthDate>22.06.1986</BirthDate>
+                <HomeAddress>Pushkina street 45</HomeAddress>
+                <Position>System Administrator</Position>
+                <AddressWork>Build 1</AddressWork>
+                <Department>Department IT</Department>
+                <EmploymentDate>15.04.2018</EmploymentDate>
+                <OnlineWork>true</OnlineWork>
+                <Salary>250000</Salary>
+            </Subordinate>
+            <Subordinate>
+                <FirstName>Dmitry</FirstName>
+                <MiddleName>Kuznetsov</MiddleName>
+                <LastName>Sergeevich</LastName>
+                <Age>29</Age>
+                <BirthDate>11.12.1995</BirthDate>
+                <HomeAddress>Lenina street 10</HomeAddress>
+                <Position>Backend Developer</Position>
+                <AddressWork>Build 3</AddressWork>
+                <Department>Department Development</Department>
+                <EmploymentDate>10.02.2022</EmploymentDate>
+                <OnlineWork>false</OnlineWork>
+                <Salary>280000</Salary>
+            </Subordinate>
+            <Subordinate>
+                <FirstName>Olga</FirstName>
+                <MiddleName>Morozova</MiddleName>
+                <LastName>Nikolaevna</LastName>
+                <Age>33</Age>
+                <BirthDate>30.09.1991</BirthDate>
+                <HomeAddress>Sovetskaya street 78</HomeAddress>
+                <Position>HR Specialist</Position>
+                <AddressWork>Build 5</AddressWork>
+                <Department>Human Resources</Department>
+                <EmploymentDate>20.06.2019</EmploymentDate>
+                <OnlineWork>true</OnlineWork>
+                <Salary>220000</Salary>
+            </Subordinate>
+        </EmployeeWork>
+    </Boss>
+</xmlList>

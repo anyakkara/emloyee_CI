@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xmlList>
+    <ManagerEmployee>
+        <FirstName>John</FirstName>
+        <MiddleName>Michael</MiddleName>
+        <LastName>Doe</LastName>
+        <Age>35</Age>
+        <BirthDate>15.06.1989</BirthDate>
+        <HomeAddress>42 Main St</HomeAddress>
+        <Position>Client Manager</Position>
+        <AddressWork>Building A</AddressWork>
+        <Department>Sales</Department>
+        <EmploymentDate>10.01.2018</EmploymentDate>
+        <OnlineWork>true</OnlineWork>
+        <Salary>80000</Salary>
+        <Clients>
+            <Client>
+                <Name>ООО Ромашка</Name>
+                <Address>ул. Цветочная 1</Address>
+                <ContactPerson>Иванов И.И.</ContactPerson>
+                <ContactPhone>+79991112233</ContactPhone>
+            </Client>
+        </Clients>
+    </ManagerEmployee>
+    <ManagerEmployee>
+        <FirstName>Emily</FirstName>
+        <MiddleName>Jane</MiddleName>
+        <LastName>Clark</LastName>
+        <Age>29</Age>
+        <BirthDate>22.03.1995</BirthDate>
+        <HomeAddress>78 Elm St</HomeAddress>
+        <Position>Client Manager</Position>
+        <AddressWork>Building B</AddressWork>
+        <Department>Support</Department>
+        <EmploymentDate>01.09.2020</EmploymentDate>
+        <OnlineWork>false</OnlineWork>
+        <Salary>100000</Salary>
+        <Clients>
+            <Client>
+                <Name>ООО Ромашка</Name>
+                <Address>ул. Цветочная 1</Address>
+                <ContactPerson>Иванов И.И.</ContactPerson>
+                <ContactPhone>+79991112233</ContactPhone>
+            </Client>
+            <Client>
+                <Name>ЗАО Орхидея</Name>
+                <Address>ул. Полевая 12</Address>
+                <ContactPerson>Петров П.П.</ContactPerson>
+                <ContactPhone>+79992223344</ContactPhone>
+            </Client>
+        </Clients>
+    </ManagerEmployee>
+    <ManagerEmployee>
+        <FirstName>David</FirstName>
+        <MiddleName>Lee</MiddleName>
+        <LastName>Brown</LastName>
+        <Age>40</Age>
+        <BirthDate>02.12.1984</BirthDate>
+        <HomeAddress>96 Oak St</HomeAddress>
+        <Position>Senior Client Manager</Position>
+        <AddressWork>Headquarters</AddressWork>
+        <Department>Corporate Sales</Department>
+        <EmploymentDate>20.05.2021</EmploymentDate>
+        <OnlineWork>true</OnlineWork>
+        <Salary>85000</Salary>
+        <Clients>
+            <Client>
+                <Name>ООО Ромашка</Name>
+                <Address>ул. Цветочная 1</Address>
+                <ContactPerson>Иванов И.И.</ContactPerson>
+                <ContactPhone>+79991112233</ContactPhone>
+            </Client>
+        </Clients>
+    </ManagerEmployee>
+</xmlList>
