@@ -19,8 +19,8 @@ public class ManagerEmployee extends Employee {
     private ArrayList<Organization> organizations;
 
     public ManagerEmployee(String firstName, String lastName, String middleName, int age, String birthDate,
-                        String homeAddress, String position, String addressWork, String department,
-                        String employmentDate, boolean onlineWork, int salary,ArrayList<Organization> organizations){
+                           String homeAddress, String position, String addressWork, String department,
+                           String employmentDate, boolean onlineWork, int salary,ArrayList<Organization> organizations){
         super(firstName, lastName, middleName, age, birthDate, homeAddress,
                 position, addressWork, department, employmentDate, onlineWork, salary);
         this.organizations = organizations;

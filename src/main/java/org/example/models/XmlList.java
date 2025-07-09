@@ -1,6 +1,8 @@
 package org.example.models;
+
 import jakarta.xml.bind.annotation.XmlAnyElement;
 import jakarta.xml.bind.annotation.XmlRootElement;
+
 import java.util.List;
 
 @XmlRootElement

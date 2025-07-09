@@ -1,10 +1,12 @@
 package org.example.models;
-import lombok.Getter;
-import lombok.Setter;
-import lombok.EqualsAndHashCode;
+
 import jakarta.xml.bind.annotation.*;
-import java.util.ArrayList;
+import lombok.EqualsAndHashCode;
+import lombok.Getter;
 import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+import java.util.ArrayList;
 
 @NoArgsConstructor
 @Getter

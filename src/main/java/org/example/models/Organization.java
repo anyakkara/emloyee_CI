@@ -1,9 +1,11 @@
 package org.example.models;
-import lombok.EqualsAndHashCode;
+
+import jakarta.xml.bind.annotation.XmlAccessType;
+import jakarta.xml.bind.annotation.XmlAccessorType;
+import jakarta.xml.bind.annotation.XmlElement;
 import lombok.Getter;
-import lombok.Setter;
-import jakarta.xml.bind.annotation.*;
 import lombok.NoArgsConstructor;
+import lombok.Setter;
 
 @NoArgsConstructor
 @Getter

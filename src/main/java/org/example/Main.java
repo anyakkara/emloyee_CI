@@ -1,15 +1,8 @@
 package org.example;
 
-import org.example.models.Boss;
-import org.example.models.Employee;
-import org.example.models.ManagerEmployee;
-import org.example.models.Organization;
-
-import jakarta.xml.bind.annotation.*;
 import jakarta.xml.bind.JAXBContext;
-import jakarta.xml.bind.JAXBException;
 import jakarta.xml.bind.Marshaller;
-import org.example.models.XmlList;
+import org.example.models.*;
 
 import java.io.FileWriter;
 import java.io.IOException;
@@ -211,7 +204,7 @@ public class Main {
 
 
         ArrayList<Employee> all_employee_list = (ArrayList<Employee>) Stream.concat
-                (Stream.concat(emp_list.stream(), boss_list.stream()), manager_list.stream())
+                        (Stream.concat(emp_list.stream(), boss_list.stream()), manager_list.stream())
                 .collect(Collectors.toList());
 
         writeToXml(all_employee_list,"all_employee.xml", Employee.class);
