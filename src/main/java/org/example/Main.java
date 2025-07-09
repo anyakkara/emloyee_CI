@@ -3,6 +3,7 @@ package org.example;
 import jakarta.xml.bind.JAXBContext;
 import jakarta.xml.bind.Marshaller;
 import org.example.models.*;
+import org.example.objects.CreateEmployee;
 
 import java.io.FileWriter;
 import java.io.IOException;
@@ -34,70 +35,9 @@ public class Main {
         clientList_2.add(org2);
 
 
-        Employee emp1 = new Employee(
-                "Ivan",
-                "Ivanovich",
-                "Ivanov",
-                45,
-                "10.03.1980",
-                "Ivanovskya street 123",
-                "Analyst",
-                "Build 2",
-                "Department IT",
-                "01.03.2020",
-                false,
-                300000);
 
+        ArrayList<Employee> employeeList = CreateEmployee.getEmployees();
 
-        Employee emp2 = new Employee(
-                "Elena",
-                "Petrovna",
-                "Smirnova",
-                38,
-                "22.06.1986",
-                "Pushkina street 45",
-                "System Administrator",
-                "Build 1",
-                "Department IT",
-                "15.04.2018",
-                true,
-                250000);
-
-
-        Employee emp3 = new Employee(
-                "Dmitry",
-                "Sergeevich",
-                "Kuznetsov",
-                29,
-                "11.12.1995",
-                "Lenina street 10",
-                "Backend Developer",
-                "Build 3",
-                "Department Development",
-                "10.02.2022",
-                false,
-                280000);
-
-
-        Employee emp4 = new Employee(
-                "Olga",
-                "Nikolaevna",
-                "Morozova",
-                33,
-                "30.09.1991",
-                "Sovetskaya street 78",
-                "HR Specialist",
-                "Build 5",
-                "Human Resources",
-                "20.06.2019",
-                true,
-                220000);
-
-        ArrayList<Employee> emp_list= new ArrayList<>();
-        emp_list.add(emp1);
-        emp_list.add(emp2);
-        emp_list.add(emp3);
-        emp_list.add(emp4);
 
         Boss boss = new Boss(
                 "Sergey",
@@ -112,7 +52,7 @@ public class Main {
                 "01.11.2015",
                 false,
                 350000,
-                emp_list);
+                employeeList);
 
         ArrayList<Boss> boss_list= new ArrayList<>();
         boss_list.add(boss);
@@ -173,7 +113,7 @@ public class Main {
             writeToFile("bosses.txt",boss.toString());
 
             StringBuilder emp = new StringBuilder();
-            for (Employee e : emp_list) {
+            for (Employee e : employeeList) {
                 emp.append(e.toString()).append("\n");
             }
             writeToFile("employees.txt",emp.toString());
@@ -189,7 +129,7 @@ public class Main {
         }
 
 
-        writeToXml(emp_list,"employee.xml", Employee.class);
+        writeToXml(employeeList,"employee.xml", Employee.class);
         writeToXml(boss_list,"bosses.xml", Boss.class);
         writeToXml(manager_list,"managers.xml", ManagerEmployee.class);
 
@@ -204,7 +144,7 @@ public class Main {
 
 
         ArrayList<Employee> all_employee_list = (ArrayList<Employee>) Stream.concat
-                        (Stream.concat(emp_list.stream(), boss_list.stream()), manager_list.stream())
+                        (Stream.concat(employeeList.stream(), boss_list.stream()), manager_list.stream())
                 .collect(Collectors.toList());
 
         writeToXml(all_employee_list,"all_employee.xml", Employee.class);
