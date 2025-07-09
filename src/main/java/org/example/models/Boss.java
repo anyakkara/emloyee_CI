@@ -32,9 +32,9 @@ public class Boss extends Employee{
     @Override
     public String toString(){
         StringBuilder info = new StringBuilder(super.toString());
-        info.append("\nEmployee Name:\n");
+        info.append("Employee Name:\n");
         for (Employee e: employees){
-            info.append(e.getFullName()).append("\n");
+            info.append(e.getFullName()+"\n");
         }
 
         return info.toString();

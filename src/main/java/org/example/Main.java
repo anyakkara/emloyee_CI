@@ -3,6 +3,7 @@ package org.example;
 import jakarta.xml.bind.JAXBContext;
 import jakarta.xml.bind.Marshaller;
 import org.example.models.*;
+import org.example.objects.CreateBoss;
 import org.example.objects.CreateEmployee;
 import org.example.objects.CreateManager;
 
@@ -18,44 +19,26 @@ public class Main {
     public static void main(String[] args) throws Exception {
         ArrayList<ManagerEmployee> managerList = CreateManager.getManagers();
         ArrayList<Employee> employeeList = CreateEmployee.getEmployees();
-
-
-        Boss boss = new Boss(
-                "Sergey",
-                "Ivanovich",
-                "Volkov",
-                41,
-                "17.05.1983",
-                "Zelenaya street 12",
-                "Project Manager",
-                "Build 4",
-                "Project Office",
-                "01.11.2015",
-                false,
-                350000,
-                employeeList);
-
-        ArrayList<Boss> boss_list= new ArrayList<>();
-        boss_list.add(boss);
-
-
-
-
+        ArrayList<Boss> bossList= CreateBoss.getBosses();
 
         try{
-            writeToFile("bosses.txt",boss.toString());
+            StringBuilder bossBuilder = new StringBuilder();
+            for (Boss b : bossList) {
+                bossBuilder.append(b.toString()).append("\n");
+            }
+            writeToFile("bosses.txt",bossBuilder.toString());
 
-            StringBuilder emp = new StringBuilder();
+            StringBuilder employeeBulder = new StringBuilder();
             for (Employee e : employeeList) {
-                emp.append(e.toString()).append("\n");
+                employeeBulder.append(e.toString()).append("\n");
             }
-            writeToFile("employees.txt",emp.toString());
+            writeToFile("employees.txt",employeeBulder.toString());
 
-            StringBuilder m_emp = new StringBuilder();
+            StringBuilder managerBulder = new StringBuilder();
             for (Employee e : managerList) {
-                m_emp.append(e.toString()).append("\n");
+                managerBulder.append(e.toString()).append("\n");
             }
-            writeToFile("managers.txt",m_emp.toString());
+            writeToFile("managers.txt",managerBulder.toString());
 
         } catch (IOException e){
             System.err.println("Ошибка при записи: " + e.getMessage());
@@ -63,21 +46,8 @@ public class Main {
 
 
         writeToXml(employeeList,"employee.xml", Employee.class);
-        writeToXml(boss_list,"bosses.xml", Boss.class);
+        writeToXml(bossList,"bosses.xml", Boss.class);
         writeToXml(managerList,"managers.xml", ManagerEmployee.class);
-
-
-        for (Boss b : boss_list) {
-            b.setEmployees(new ArrayList<>());
-        }
-
-        for (ManagerEmployee e : managerList) {
-            e.setOrganizations(new ArrayList<>());
-        }
-
-
-
-
     }
 
     public static void writeToFile(String fname,String content) throws IOException{

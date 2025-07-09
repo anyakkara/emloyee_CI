@@ -8,9 +8,21 @@ Department: Project Office
 Employment Date: 01.11.2015
 Online Work: No
 Salary: 350000
-
 Employee Name:
 Ivan Ivanov Ivanovich
+
+FullName: Dmitry Morozov Sergeevich
+Age: 29
+Birth Date: 11.12.1994
+Home Address: Lesnaya street 7
+Position: QA Engineer
+Address Work: Build 1
+Department: Testing Department
+Employment Date: 10.02.2021
+Online Work: No
+Salary: 220000
+Employee Name:
 Elena Smirnova Petrovna
 Dmitry Kuznetsov Sergeevich
 Olga Morozova Nikolaevna
+

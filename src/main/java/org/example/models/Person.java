@@ -45,6 +45,7 @@ public class Person {
         this.homeAddress = homeAddress;
     }
 
+    @XmlElement(name = "FullName")
     public String getFullName() {
         return firstName + " " + middleName + " " + lastName;
     }

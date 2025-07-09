@@ -2,6 +2,7 @@ package org.example.objects;
 
 import lombok.Getter;
 import org.example.models.Employee;
+import org.example.models.Organization;
 
 import java.util.ArrayList;
 
@@ -66,6 +67,10 @@ public class CreateEmployee {
                 "20.06.2019",
                 true,
                 220000));
+    }
+
+    public static ArrayList<Employee> getEmployeesSubList(int fromIndex, int toIndex) {
+        return new ArrayList<>(employees.subList(fromIndex, toIndex));
     }
 
 }

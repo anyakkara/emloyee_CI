@@ -7,6 +7,7 @@
         <Age>41</Age>
         <BirthDate>17.05.1983</BirthDate>
         <HomeAddress>Zelenaya street 12</HomeAddress>
+        <FullName>Sergey Volkov Ivanovich</FullName>
         <Position>Project Manager</Position>
         <AddressWork>Build 4</AddressWork>
         <Department>Project Office</Department>
@@ -21,6 +22,7 @@
                 <Age>45</Age>
                 <BirthDate>10.03.1980</BirthDate>
                 <HomeAddress>Ivanovskya street 123</HomeAddress>
+                <FullName>Ivan Ivanov Ivanovich</FullName>
                 <Position>Analyst</Position>
                 <AddressWork>Build 2</AddressWork>
                 <Department>Department IT</Department>
@@ -28,6 +30,23 @@
                 <OnlineWork>false</OnlineWork>
                 <Salary>300000</Salary>
             </Subordinate>
+        </EmployeeWork>
+    </Boss>
+    <Boss>
+        <FirstName>Dmitry</FirstName>
+        <MiddleName>Morozov</MiddleName>
+        <LastName>Sergeevich</LastName>
+        <Age>29</Age>
+        <BirthDate>11.12.1994</BirthDate>
+        <HomeAddress>Lesnaya street 7</HomeAddress>
+        <FullName>Dmitry Morozov Sergeevich</FullName>
+        <Position>QA Engineer</Position>
+        <AddressWork>Build 1</AddressWork>
+        <Department>Testing Department</Department>
+        <EmploymentDate>10.02.2021</EmploymentDate>
+        <OnlineWork>false</OnlineWork>
+        <Salary>220000</Salary>
+        <EmployeeWork>
             <Subordinate>
                 <FirstName>Elena</FirstName>
                 <MiddleName>Smirnova</MiddleName>
@@ -35,6 +54,7 @@
                 <Age>38</Age>
                 <BirthDate>22.06.1986</BirthDate>
                 <HomeAddress>Pushkina street 45</HomeAddress>
+                <FullName>Elena Smirnova Petrovna</FullName>
                 <Position>System Administrator</Position>
                 <AddressWork>Build 1</AddressWork>
                 <Department>Department IT</Department>
@@ -49,6 +69,7 @@
                 <Age>29</Age>
                 <BirthDate>11.12.1995</BirthDate>
                 <HomeAddress>Lenina street 10</HomeAddress>
+                <FullName>Dmitry Kuznetsov Sergeevich</FullName>
                 <Position>Backend Developer</Position>
                 <AddressWork>Build 3</AddressWork>
                 <Department>Department Development</Department>
@@ -63,6 +84,7 @@
                 <Age>33</Age>
                 <BirthDate>30.09.1991</BirthDate>
                 <HomeAddress>Sovetskaya street 78</HomeAddress>
+                <FullName>Olga Morozova Nikolaevna</FullName>
                 <Position>HR Specialist</Position>
                 <AddressWork>Build 5</AddressWork>
                 <Department>Human Resources</Department>
