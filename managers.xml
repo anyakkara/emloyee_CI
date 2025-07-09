@@ -15,9 +15,9 @@
         <Salary>80000</Salary>
         <Clients>
             <Client>
-                <Name>ООО Ромашка</Name>
-                <Address>ул. Цветочная 1</Address>
-                <ContactPerson>Иванов И.И.</ContactPerson>
+                <Name>Romashka LLC</Name>
+                <Address>1 Tsvetochnaya Street</Address>
+                <ContactPerson>Ivanov I.I.</ContactPerson>
                 <ContactPhone>+79991112233</ContactPhone>
             </Client>
         </Clients>
@@ -37,15 +37,15 @@
         <Salary>100000</Salary>
         <Clients>
             <Client>
-                <Name>ООО Ромашка</Name>
-                <Address>ул. Цветочная 1</Address>
-                <ContactPerson>Иванов И.И.</ContactPerson>
+                <Name>Romashka LLC</Name>
+                <Address>1 Tsvetochnaya Street</Address>
+                <ContactPerson>Ivanov I.I.</ContactPerson>
                 <ContactPhone>+79991112233</ContactPhone>
             </Client>
             <Client>
-                <Name>ЗАО Орхидея</Name>
-                <Address>ул. Полевая 12</Address>
-                <ContactPerson>Петров П.П.</ContactPerson>
+                <Name>Orkhideya JSC</Name>
+                <Address>12 Polevaya Street</Address>
+                <ContactPerson>Petrov P.P.</ContactPerson>
                 <ContactPhone>+79992223344</ContactPhone>
             </Client>
         </Clients>
@@ -65,9 +65,9 @@
         <Salary>85000</Salary>
         <Clients>
             <Client>
-                <Name>ООО Ромашка</Name>
-                <Address>ул. Цветочная 1</Address>
-                <ContactPerson>Иванов И.И.</ContactPerson>
+                <Name>Romashka LLC</Name>
+                <Address>1 Tsvetochnaya Street</Address>
+                <ContactPerson>Ivanov I.I.</ContactPerson>
                 <ContactPhone>+79991112233</ContactPhone>
             </Client>
         </Clients>

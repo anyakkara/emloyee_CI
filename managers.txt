@@ -9,7 +9,7 @@ Employment Date: 10.01.2018
 Online Work: Yes
 Salary: 80000
 Clients:
-ООО Ромашка
+Romashka LLC
 
 FullName: Emily Jane Clark
 Age: 29
@@ -22,8 +22,8 @@ Employment Date: 01.09.2020
 Online Work: No
 Salary: 100000
 Clients:
-ООО Ромашка
-ЗАО Орхидея
+Romashka LLC
+Orkhideya JSC
 
 FullName: David Lee Brown
 Age: 40
@@ -36,5 +36,5 @@ Employment Date: 20.05.2021
 Online Work: Yes
 Salary: 85000
 Clients:
-ООО Ромашка
+Romashka LLC
 
