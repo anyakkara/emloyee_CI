@@ -1,4 +1,4 @@
-FullName: Ivan Ivanov Ivanovich
+FullName: Ivan Ivanovich Ivanov
 Age: 45
 Birth Date: 10.03.1980
 Home Address: Ivanovskya street 123
@@ -9,7 +9,7 @@ Employment Date: 01.03.2020
 Online Work: No
 Salary: 300000
 
-FullName: Elena Smirnova Petrovna
+FullName: Elena Petrovna Smirnova
 Age: 38
 Birth Date: 22.06.1986
 Home Address: Pushkina street 45
@@ -20,7 +20,7 @@ Employment Date: 15.04.2018
 Online Work: Yes
 Salary: 250000
 
-FullName: Dmitry Kuznetsov Sergeevich
+FullName: Dmitry Sergeevich Kuznetsov
 Age: 29
 Birth Date: 11.12.1995
 Home Address: Lenina street 10
@@ -31,7 +31,7 @@ Employment Date: 10.02.2022
 Online Work: No
 Salary: 280000
 
-FullName: Olga Morozova Nikolaevna
+FullName: Olga Nikolaevna Morozova
 Age: 33
 Birth Date: 30.09.1991
 Home Address: Sovetskaya street 78

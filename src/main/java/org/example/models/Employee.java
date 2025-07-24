@@ -35,7 +35,7 @@ public class Employee extends Person {
 
 
 
-    public Employee(String firstName, String lastName, String middleName, int age, String birthDate,
+    public Employee(String firstName, String middleName, String lastName, int age, String birthDate,
                     String homeAddress, String position, String addressWork, String department,
                     String employmentDate, boolean onlineWork, int salary) {
         super(firstName, middleName,lastName, age, birthDate, homeAddress);

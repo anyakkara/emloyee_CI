@@ -48,6 +48,10 @@ public class Main {
         writeToXml(employeeList,"employee.xml", Employee.class);
         writeToXml(bossList,"bosses.xml", Boss.class);
         writeToXml(managerList,"managers.xml", ManagerEmployee.class);
+
+        JsonList.jsonEmloyee(employeeList,"employee.json");
+        JsonList.jsonEmloyee(bossList,"bosses.json");
+        JsonList.jsonEmloyee(managerList,"managers.json");
     }
 
     public static void writeToFile(String fname,String content) throws IOException{

@@ -18,12 +18,12 @@ import java.util.ArrayList;
 public class Boss extends Employee{
     @XmlElementWrapper(name = "EmployeeWork")
     @XmlElement(name = "Subordinate")
-    private ArrayList<Employee> employees;
+    private ArrayList<EmployeeShort> employees;
 
-    public Boss(String firstName, String lastName, String middleName, int age, String birthDate,
+    public Boss(String firstName,String middleName, String lastName,  int age, String birthDate,
                 String homeAddress, String position, String addressWork, String department,
-                String employmentDate, boolean onlineWork, int salary, ArrayList<Employee> employees){
-        super(firstName, lastName, middleName, age, birthDate,
+                String employmentDate, boolean onlineWork, int salary, ArrayList<EmployeeShort> employees){
+        super(firstName,middleName, lastName, age, birthDate,
                 homeAddress, position, addressWork, department, employmentDate, onlineWork, salary);
         this.employees = employees;
 
@@ -33,7 +33,7 @@ public class Boss extends Employee{
     public String toString(){
         StringBuilder info = new StringBuilder(super.toString());
         info.append("Employee Name:\n");
-        for (Employee e: employees){
+        for (EmployeeShort e: employees){
             info.append(e.getFullName()+"\n");
         }
 

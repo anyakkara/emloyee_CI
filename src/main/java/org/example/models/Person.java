@@ -14,7 +14,7 @@ import lombok.Setter;
 @Getter
 @Setter
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlSeeAlso({Employee.class})
+@XmlSeeAlso({Employee.class,EmployeeShort.class})
 public class Person {
     @XmlElement(name = "FirstName")
     private String firstName;

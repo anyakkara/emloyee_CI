@@ -1,4 +1,4 @@
-FullName: Sergey Volkov Ivanovich
+FullName: Sergey Ivanovich Volkov
 Age: 41
 Birth Date: 17.05.1983
 Home Address: Zelenaya street 12
@@ -9,9 +9,9 @@ Employment Date: 01.11.2015
 Online Work: No
 Salary: 350000
 Employee Name:
-Ivan Ivanov Ivanovich
+Ivan Ivanovich Ivanov
 
-FullName: Dmitry Morozov Sergeevich
+FullName: Dmitry Sergeevich Morozov
 Age: 29
 Birth Date: 11.12.1994
 Home Address: Lesnaya street 7
@@ -22,7 +22,7 @@ Employment Date: 10.02.2021
 Online Work: No
 Salary: 220000
 Employee Name:
-Elena Smirnova Petrovna
-Dmitry Kuznetsov Sergeevich
-Olga Morozova Nikolaevna
+Elena Petrovna Smirnova
+Dmitry Sergeevich Kuznetsov
+Olga Nikolaevna Morozova
 

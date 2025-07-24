@@ -2,12 +2,12 @@
 <xmlList>
     <ManagerEmployee>
         <FirstName>John</FirstName>
-        <MiddleName>Michael</MiddleName>
-        <LastName>Doe</LastName>
+        <MiddleName>Doe</MiddleName>
+        <LastName>Michael</LastName>
         <Age>35</Age>
         <BirthDate>15.06.1989</BirthDate>
         <HomeAddress>42 Main St</HomeAddress>
-        <FullName>John Michael Doe</FullName>
+        <FullName>John Doe Michael</FullName>
         <Position>Client Manager</Position>
         <AddressWork>Building A</AddressWork>
         <Department>Sales</Department>
@@ -25,12 +25,12 @@
     </ManagerEmployee>
     <ManagerEmployee>
         <FirstName>Emily</FirstName>
-        <MiddleName>Jane</MiddleName>
-        <LastName>Clark</LastName>
+        <MiddleName>Clark</MiddleName>
+        <LastName>Jane</LastName>
         <Age>29</Age>
         <BirthDate>22.03.1995</BirthDate>
         <HomeAddress>78 Elm St</HomeAddress>
-        <FullName>Emily Jane Clark</FullName>
+        <FullName>Emily Clark Jane</FullName>
         <Position>Client Manager</Position>
         <AddressWork>Building B</AddressWork>
         <Department>Support</Department>
@@ -54,12 +54,12 @@
     </ManagerEmployee>
     <ManagerEmployee>
         <FirstName>David</FirstName>
-        <MiddleName>Lee</MiddleName>
-        <LastName>Brown</LastName>
+        <MiddleName>Brown</MiddleName>
+        <LastName>Lee</LastName>
         <Age>40</Age>
         <BirthDate>02.12.1984</BirthDate>
         <HomeAddress>96 Oak St</HomeAddress>
-        <FullName>David Lee Brown</FullName>
+        <FullName>David Brown Lee</FullName>
         <Position>Senior Client Manager</Position>
         <AddressWork>Headquarters</AddressWork>
         <Department>Corporate Sales</Department>

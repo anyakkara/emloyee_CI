@@ -1,4 +1,4 @@
-FullName: John Michael Doe
+FullName: John Doe Michael
 Age: 35
 Birth Date: 15.06.1989
 Home Address: 42 Main St
@@ -11,7 +11,7 @@ Salary: 80000
 Clients:
 Romashka LLC
 
-FullName: Emily Jane Clark
+FullName: Emily Clark Jane
 Age: 29
 Birth Date: 22.03.1995
 Home Address: 78 Elm St
@@ -25,7 +25,7 @@ Clients:
 Romashka LLC
 Orkhideya JSC
 
-FullName: David Lee Brown
+FullName: David Brown Lee
 Age: 40
 Birth Date: 02.12.1984
 Home Address: 96 Oak St
