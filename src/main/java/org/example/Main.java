@@ -10,8 +10,6 @@ import org.example.objects.CreateManager;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
@@ -52,6 +50,9 @@ public class Main {
         JsonList.jsonEmloyee(employeeList,"employee.json");
         JsonList.jsonEmloyee(bossList,"bosses.json");
         JsonList.jsonEmloyee(managerList,"managers.json");
+
+        CsvList.csvEmployee("employee.csv", employeeList);
+        CsvList.csvBoss("bosses.csv", bossList);
     }
 
     public static void writeToFile(String fname,String content) throws IOException{

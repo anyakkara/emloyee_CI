@@ -8,7 +8,7 @@ Department: Project Office
 Employment Date: 01.11.2015
 Online Work: No
 Salary: 350000
-Employee Name:
+Subordinates:
 Ivan Ivanovich Ivanov
 
 FullName: Dmitry Sergeevich Morozov
@@ -21,7 +21,7 @@ Department: Testing Department
 Employment Date: 10.02.2021
 Online Work: No
 Salary: 220000
-Employee Name:
+Subordinates:
 Elena Petrovna Smirnova
 Dmitry Sergeevich Kuznetsov
 Olga Nikolaevna Morozova

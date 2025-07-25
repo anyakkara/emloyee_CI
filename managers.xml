@@ -7,7 +7,6 @@
         <Age>35</Age>
         <BirthDate>15.06.1989</BirthDate>
         <HomeAddress>42 Main St</HomeAddress>
-        <FullName>John Doe Michael</FullName>
         <Position>Client Manager</Position>
         <AddressWork>Building A</AddressWork>
         <Department>Sales</Department>
@@ -30,7 +29,6 @@
         <Age>29</Age>
         <BirthDate>22.03.1995</BirthDate>
         <HomeAddress>78 Elm St</HomeAddress>
-        <FullName>Emily Clark Jane</FullName>
         <Position>Client Manager</Position>
         <AddressWork>Building B</AddressWork>
         <Department>Support</Department>
@@ -59,7 +57,6 @@
         <Age>40</Age>
         <BirthDate>02.12.1984</BirthDate>
         <HomeAddress>96 Oak St</HomeAddress>
-        <FullName>David Brown Lee</FullName>
         <Position>Senior Client Manager</Position>
         <AddressWork>Headquarters</AddressWork>
         <Department>Corporate Sales</Department>

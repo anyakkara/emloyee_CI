@@ -15,9 +15,5 @@ import lombok.Setter;
 
 @XmlRootElement(name = "Subordinate")
 public class EmployeeShort extends Person{
-    @XmlElement(name = "FullName")
-    @Override
-    public String getFullName(){
-        return super.getFullName();
-    }
+
 }

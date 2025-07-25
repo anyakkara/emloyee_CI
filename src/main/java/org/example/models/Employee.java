@@ -47,6 +47,10 @@ public class Employee extends Person {
         this.salary = salary;
     }
 
+    public String getFullName() {
+        return getFirstName() + " " + getMiddleName() + " " + getLastName();
+    }
+
     @Override
     public String toString() {
         return String.format("""

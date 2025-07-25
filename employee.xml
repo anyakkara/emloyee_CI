@@ -7,7 +7,6 @@
         <Age>45</Age>
         <BirthDate>10.03.1980</BirthDate>
         <HomeAddress>Ivanovskya street 123</HomeAddress>
-        <FullName>Ivan Ivanovich Ivanov</FullName>
         <Position>Analyst</Position>
         <AddressWork>Build 2</AddressWork>
         <Department>Department IT</Department>
@@ -22,7 +21,6 @@
         <Age>38</Age>
         <BirthDate>22.06.1986</BirthDate>
         <HomeAddress>Pushkina street 45</HomeAddress>
-        <FullName>Elena Petrovna Smirnova</FullName>
         <Position>System Administrator</Position>
         <AddressWork>Build 1</AddressWork>
         <Department>Department IT</Department>
@@ -37,7 +35,6 @@
         <Age>29</Age>
         <BirthDate>11.12.1995</BirthDate>
         <HomeAddress>Lenina street 10</HomeAddress>
-        <FullName>Dmitry Sergeevich Kuznetsov</FullName>
         <Position>Backend Developer</Position>
         <AddressWork>Build 3</AddressWork>
         <Department>Department Development</Department>
@@ -52,7 +49,6 @@
         <Age>33</Age>
         <BirthDate>30.09.1991</BirthDate>
         <HomeAddress>Sovetskaya street 78</HomeAddress>
-        <FullName>Olga Nikolaevna Morozova</FullName>
         <Position>HR Specialist</Position>
         <AddressWork>Build 5</AddressWork>
         <Department>Human Resources</Department>

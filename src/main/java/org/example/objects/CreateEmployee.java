@@ -2,7 +2,6 @@ package org.example.objects;
 
 import lombok.Getter;
 import org.example.models.Employee;
-import org.example.models.Organization;
 
 import java.util.ArrayList;
 
